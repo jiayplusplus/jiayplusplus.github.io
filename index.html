@@ -3,21 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML Page</title>
+    <title>Jiay++</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Jiay++</h1>
+        <h1>Utility Website</h1>
     </header>
     
     <main>
-        <h1 style="text-align: center;">j = j+1;</h1>
+        <p>I hope I will actually read the things I put here.</p>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'books')">Books</button>
+            <button class="tablinks" onclick="openTab(event, 'papers')">Papers</button>
+        </div>
+        
+        <div id="books" class="tabcontent">
+            <p><a href="https://softwarefoundations.cis.upenn.edu">Software Foundations</a>, the Coq book</p>
+            <p><a href="https://leanprover.github.io/logic_and_proof/">Logic and Proof</a>, introduction to mathematical proof and symbolic logic, with exercises in Lean</p>
+        </div>
+        
+        <div id="papers" class="tabcontent">
+            <p><a href="https://dl.acm.org/doi/10.1145/3105726.3106184">Theorem Provers as a Learning Tool in Theory of Computation</a>, a paper on using Coq to teach proof in CS</p>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; 2024 My Utility Website. Most rights not reserved (by me).</p>
+        <p>Just to keep random things here so my browser wob't have a chunky bookmark folder. </p>
     </footer>
+
 </body>
 </html>
