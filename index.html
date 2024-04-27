@@ -13,13 +13,18 @@
     </header>
     
     <main>
-        <p>I hope I will actually have some time for the things I put here.</p>
         <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tools')">Tools</button>
             <button class="tablinks" onclick="openTab(event, 'books')">Books</button>
             <button class="tablinks" onclick="openTab(event, 'papers')">Papers</button>
             <button class="tablinks" onclick="openTab(event, 'tutorials')">Tutorials</button>
             <button class="tablinks" onclick="openTab(event, 'courses')">Courses</button>
             <button class="tablinks" onclick="openTab(event, 'musics')">Musics</button>
+        </div>
+
+        <div id="tools" class="tabcontent">
+            <p><a href="https://chat.openai.com">ChatGPT</a></p>
+
         </div>
         
         <div id="books" class="tabcontent">
